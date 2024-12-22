@@ -1,0 +1,15 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company offers</title>
+    <link rel="stylesheet" href="{% static 'company.css' %}">
+</head>
+<body>
+    <h1>O<sup>2</sup> Services</h1>
+    <a href="{% url 'LinkAnchor:online' %}" id="online"><button >Online</button></a>
+    <a href="{% url 'LinkAnchor:offline' %}" id="offline"><button >Offline</button></a>
+</body>
+</html>

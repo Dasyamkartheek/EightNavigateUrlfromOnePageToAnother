@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    position: relative;
+    top: 100px;
+    margin-left:37%;
+    background-image: linear-gradient(pink,blue,orange,yellow);
+    background-clip:text;
+    font-size: 70px;
+}
+body{
+    height: 100vh;
+    background-image: radial-gradient(circle at top left,red,blue,yellow);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+a{
+    position:relative;
+    top: 160px;
+    left:46%;
+    transition: all 1s;
+}
+button{
+    padding: 10px;
+    justify-items: space-between;
+    border-radius: 10px;
+    transition: all 1s;
+}
+#online{
+    margin-right: 10px;
+
+}
+button:hover{
+    box-shadow: -10px 10px 10px rgb(232, 229, 229);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+
+
+}
